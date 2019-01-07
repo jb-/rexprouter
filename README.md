@@ -8,7 +8,7 @@
 
 ## adding routes (recursively)
 * `$ mkdir routes` in the root directory of `rexprouter`
-* `$ cd route`
+* `$ cd routes`
 * `$ git clone https://github.com/jb-/rexprouter ${NEW_ROUTE_PATH}`
 * restart the server
 * open http://localhost:3000/${NEW_ROUTE_PATH} then it'll respond with url

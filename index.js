@@ -14,7 +14,6 @@ if (fs.existsSync(filePath)) {
     return value !== '.DS_Store';
   });
   if (subRoutes.length > 0) {
-    console.log(subRoutes);
     subRoutes.map(route => {
       router.use(`/${route}`, require(`./routes/${route}`));
     });
